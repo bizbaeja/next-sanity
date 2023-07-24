@@ -1,1 +1,5 @@
-export const schemaTypes = []
+import octotodo from "./octotodo";
+
+export const schemaTypes = [
+    octotodo
+]
