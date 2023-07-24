@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import Portfolio from './components/portfolio/portfolio'
+import OctoTodo from './components/octotodo/octotodo'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Portfolio />
+      <OctoTodo />
     </main>
   )
 }
